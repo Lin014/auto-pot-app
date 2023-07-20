@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="植物狀態"
+        android:id="@+id/plant_state"
+        android:icon="@drawable/plant_state">
+
+    </item>
+
+    <item android:title="盆栽設定"
+        android:id="@+id/pot_set"
+        android:icon="@drawable/pot_set">
+
+    </item>
+
+    <item android:title="歷史紀錄"
+        android:id="@+id/history"
+        android:icon="@drawable/history">
+
+    </item>
+</menu>

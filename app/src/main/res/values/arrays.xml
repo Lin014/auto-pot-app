@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerValue">
+        <item>無</item>
+        <item>金邊吊蘭</item>
+        <item>蕨類</item>
+        <item>仙人掌</item>
+        <item>其他</item>
+    </string-array>
+</resources>

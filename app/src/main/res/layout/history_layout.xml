@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp">
+
+        <TextView
+            android:id="@+id/text_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="先前紀錄"
+            android:textColor="@color/blue_dark"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout_record_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TableLayout
+                android:id="@+id/table_record_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/data_1"
+                        android:gravity="center"
+                        android:text="第一筆"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/data_2"
+                        android:gravity="center"
+                        android:text="第二筆"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_1_time"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_2_time"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_1_soil"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_2_soil"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_1_light"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_2_light"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_1_water"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_2_water"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TableLayout
+                android:id="@+id/table_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:stretchColumns="*"
+                android:layout_marginTop="5dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/data_3"
+                        android:gravity="center"
+                        android:text="第三筆"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/data_4"
+                        android:gravity="center"
+                        android:text="第四筆"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_3_time"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_4_time"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_3_soil"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_4_soil"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_3_light"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_4_light"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/data_3_water"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/data_4_water"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/blue_dark"
+                        android:textSize="12sp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/blue_theme"
+            android:text="Exit"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/blue_theme"
+                android:text="上一頁"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@color/blue_theme"
+                android:text="下一頁"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:id="@+id/editText"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="53dp"
+                    android:backgroundTint="@color/blue_theme"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/blue_dark"
+                    android:textColorHint="#A99888"
+                    android:textSize="12sp"
+                    android:textAlignment="center"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="66dp"
+                    android:layout_height="40dp"
+                    android:background="@color/blue_theme"
+                    android:text="跳轉"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/blue_dark" />
+
+    </LinearLayout>
+</LinearLayout>

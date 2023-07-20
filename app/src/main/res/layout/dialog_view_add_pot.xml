@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請先連接到盆栽的WiFi，再使用此操作。"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/connectPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="連接埠號(port)： "
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/enterPort"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定盆栽"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="盆栽名稱： "
+            android:layout_marginTop="10dp"
+            android:inputType=""/>
+
+        <EditText
+            android:id="@+id/enterPotName"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="家中WiFi名稱： "
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/enterWiFiSSID"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="家中WiFi密碼： "
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/enterWiFiPwd"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

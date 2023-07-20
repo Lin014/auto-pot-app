@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/app_main">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:elevation="5dp"
+        android:background="@color/blue_theme"
+        app:titleMarginStart="30dp"
+        app:title="@string/register"
+        app:titleTextColor="@color/white"
+        android:theme="@style/MyActionBarTheme"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="　　帳號："
+            android:textColor="@color/blue_theme"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/blue_theme"
+            android:ems="10"
+            android:hint="Your Account"
+            android:inputType="textVisiblePassword"
+            android:textColor="@color/blue_dark"
+            android:textColorHint="#A99888"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="　　密碼："
+            android:textSize="18sp"
+            android:textColor="@color/blue_theme"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/blue_theme"
+            android:ems="10"
+            android:hint="Your Password"
+            android:inputType="textPassword"
+            android:textColor="@color/blue_dark"
+            android:textColorHint="#A99888"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="確認密碼："
+            android:textSize="18sp"
+            android:textColor="@color/blue_theme"/>
+
+        <EditText
+            android:id="@+id/checkPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/blue_theme"
+            android:ems="10"
+            android:hint="Check Password"
+            android:inputType="textPassword"
+            android:textColor="@color/blue_dark"
+            android:textColorHint="#A99888"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/button_style"
+            android:text="註冊"
+            android:textColor="@drawable/button_text_color"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

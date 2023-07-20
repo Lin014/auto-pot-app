@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/app_main">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:elevation="5dp"
+        android:background="@color/blue_theme"
+        app:titleMarginStart="30dp"
+        app:title="編輯植物照片"
+        app:titleTextColor="@color/white"
+        android:theme="@style/MyActionBarTheme"/>
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/take_photo"
+            android:layout_width="47dp"
+            android:layout_height="45dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/add_photo"
+            android:scaleType="fitCenter"
+            android:contentDescription="take_photo"
+            android:layout_marginEnd="30dp"/>
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_plant"
+            android:contentDescription="photo"/>
+
+        <ImageButton
+            android:id="@+id/select_photo"
+            android:scaleType="fitCenter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00FFFFFF"
+            android:src="@drawable/add_image"
+            android:contentDescription="select_photo"
+            android:layout_marginStart="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="取消"
+            android:textColor="@drawable/button_text_color_common"
+            android:background="@drawable/button_style_common"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/turnBtn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="旋轉"
+            android:textColor="@drawable/button_text_color_common"
+            android:background="@drawable/button_style_common"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="確認"
+            android:textColor="@drawable/button_text_color_common"
+            android:background="@drawable/button_style_common"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

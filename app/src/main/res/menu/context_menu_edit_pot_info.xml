@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/editPotName"
+        android:title="更改盆栽名稱"/>
+
+    <item
+        android:id="@+id/editPlantName"
+        android:title="更改植物名稱"/>
+
+    <item
+        android:id="@+id/editPlantImg"
+        android:title="更改植物照片"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="刪除"/>
+</menu>

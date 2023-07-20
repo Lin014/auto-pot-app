@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Party Plants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_imageView_contentDescription">Logo</string>
+    <string name="login_textView_text">Party Plants</string>
+    <string name="main_title">PARTY PLANTS</string>
+    <string name="title_activity_potted_plant">PottedPlantActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">PARTY PLANTS</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="addPot">新增盆栽</string>
+    <string name="register">註冊</string>
+    <string name="setting">設定</string>
+    <string name="changePwd">更改密碼</string>
+
+    <string name="back">back button</string>
+    <string name="user">user button</string>
+    <string name="set">set button</string>
+
+    <string name="potImageBtn">Potted Plant Image</string>
+    <string name="addPotDialogTitle">新增盆栽</string>
+
+
+    <string-array name="spinner">
+        <item>1</item><item>2</item><item>3</item><item>4</item>
+        <item>5</item><item>6</item><item>7</item><item>8</item>
+        <item>9</item><item>10</item><item>11</item><item>12</item>
+    </string-array>
+</resources>
